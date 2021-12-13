@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tjai="http://data.alegoria-project.fr/id/codes/ign/geotheque/typedejeuxdarchivesdimagerie/"
+         xml:base="http://data.alegoria-project.fr/id/anf/">
+   <rico:Record rdf:about="mru/record/050605">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rdfs:label xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+               Construction, puis de l'Équipement : archives du service des travaux topographiques,
+               dites "Cartothèque de la Reconstruction" (1941-1980). : Répertoire numérique détaillé du versement 20130290.</rdfs:label>
+      <rico:title xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+               Construction, puis de l'Équipement : archives du service des travaux topographiques,
+               dites "Cartothèque de la Reconstruction" (1941-1980). : Répertoire numérique détaillé du versement 20130290.</rico:title>
+      <rico:hasCreator rdf:resource="corporateBody/005061"/>
+      <rico:hasPublisher rdf:resource="corporateBody/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016</rico:publicationDate>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr-FR</dc:language>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteurs</html:h4>
+            <html:p xml:lang="fr">Établi par Elsa Louÿs et Luce Finger, vacataires, et Karim Amara et Hakima
+               Hadji, étudiants de master, sous la direction de Marie Chouleur, conservateur du
+               patrimoine. Revu et enrichi par Boris Labidurie, chargé d’études documentaires. Revu
+               et enrichi par la Mission référentiels des Archives nationales (Florence Clavaud et
+               Pauline Charbonnier) pour ce qui concerne la description des photographies aériennes
+               à axe oblique de petit format (articles 20130290/1-20130290/14).</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describesOrDescribed rdf:resource="mru/recordSet/top-050605"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="mru/instantiation/050605-i1">
+            <rico:isInstantationOf rdf:resource="mru/record/050605"/>
+            <rico:identifier>FRAN_IR_050605</rico:identifier>
+            <rdfs:label xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+               Construction, puis de l'Équipement : archives du service des travaux topographiques,
+               dites "Cartothèque de la Reconstruction" (1941-1980). : Répertoire numérique détaillé du versement 20130290.</rdfs:label>
+            <rico:title xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+               Construction, puis de l'Équipement : archives du service des travaux topographiques,
+               dites "Cartothèque de la Reconstruction" (1941-1980). : Répertoire numérique détaillé du versement 20130290.</rico:title>
+            <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">text/xml</dc:format>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information
+            archivistique des Archives nationales.</rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050605"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordSet rdf:about="mru/recordSet/top-050605">
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rdfs:label xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+            Construction, puis de l'Équipement : archives du service des travaux topographiques,
+            dites "Cartothèque de la Reconstruction" </rdfs:label>
+      <rico:title xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+            Construction, puis de l'Équipement : archives du service des travaux topographiques,
+            dites "Cartothèque de la Reconstruction" </rico:title>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-12-31</rico:endDate>
+      <rico:hasCreator rdf:resource="corporateBody/006392"/>
+      <rico:hasCreator rdf:resource="corporateBody/006393"/>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr-FR</dc:language>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Informations sur l'évaluation</html:h4>
+            <html:p xml:lang="fr">L’ensemble conservé aux Archives municipales de Poitiers a fait l’objet d’une évaluation
+            fondée sur des critères d’intérêt historique et de conservation matérielle. </html:p>
+            <html:p xml:lang="fr">La typologie des plans pliés a été complétée par des plans du versement 19770686 :
+            lorsque ceux-ci manquaient ou bien étaient en meilleur état matériel, ils ont été
+            intégrés au présent versement 20130290.</html:p>
+            <html:p xml:lang="fr">Une première campagne d’éliminations a eu lieu en septembre 2013, lorsque l’équipe des
+            Archives nationales est venue collecter les documents à Poitiers, prenant en compte les
+            conclusions de l’expertise menée par les Archives départementales de la Vienne. 50
+            mètres cubes ont alors été éliminés sur place, ainsi que quelques photographies
+            aériennes ayant subi de sérieux dommages les rendant illisibles.</html:p>
+            <html:p xml:lang="fr"> Une seconde campagne a eu lieu en 2014-2015, après que le récolement a révélé d’autres
+            éliminations possibles. Cette campagne s’est appuyée sur le <html:i>Cadre
+               méthodologique pour l’évaluation, la sélection et l’échantillonnage des archives
+               publiques</html:i> (juillet 2014) rédigé par la délégation interministérielle aux
+            Archives de France. Ces opérations ont été menées conformément à la législation en
+            vigueur et en accord avec le producteur. Elles ont été intégralement documentées. Les
+            typologies suivantes ont été éliminées :</html:p>
+            <html:ul xml:lang="fr">
+               <html:li>Plans roulés : les calques et contre-calques ayant fonction de matrice, hors
+               départements de la région parisienne et d’Outre-Mer (absents de la série de plans
+               pliés) et les photographies aériennes à usage métrique, qui constituent des documents
+               de travail ;</html:li>
+               <html:li>Les plans pliés présents en double et sans annotation (la priorité ayant été
+               donnée à l’exemplaire en meilleur état) ;</html:li>
+               <html:li>Les cartes à fenêtre en double exemplaire.</html:li>
+            </html:ul>
+         </html:div>
+      </rico:history>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">L’ensemble est composé de plusieurs typologies de documents, qui correspondent aux
+            différentes étapes de la fabrication de plans topographiques. Ces plans permettaient aux
+            services des ministères successifs chargés de l’équipement d’évaluer les dommages
+            occasionnés par la Seconde Guerre mondiale et d’agir en conséquence. Leur étude permet
+            de rendre compte de la topographie de la France de l’après-guerre jusqu’à la fin des
+            années 1970, elle contient aussi de nombreuses informations renseignant sur le
+            fonctionnement du service producteur, et documente les étapes de la fabrication des
+            plans, leurs techniques et leurs supports.</html:p>
+            <html:ul xml:lang="fr">
+               <html:li>Photographies aériennes : il s’agit de films et, dans une moindre mesure, de
+               tirages photographiques présentant des vues aériennes à axe oblique d’agglomérations.
+               Elles servent à préciser le relief ainsi que le volume du bâti avant exécution des
+               plans.</html:li>
+               <html:li>Plans roulés : réalisés sur support calque ou plastique et conservés sous la forme
+               de rouleaux, les calques et contre-calques ont fonction de matrice en vue de
+               l’impression des plans. On obtient, par leur superposition, l’ensemble des
+               informations présentes sur les plans pliés. Ils concernent principalement les
+               départements d’Île-de-France et d’Outre-Mer.</html:li>
+               <html:li>Plans pliés : tirages sur support papier résultant des étapes précédentes de
+               fabrication. Ils couvrent l’ensemble des départements français d’alors, sauf ceux
+               d’Île-de-France, d’Outre-Mer et d’Algérie.</html:li>
+               <html:li>Cartes à fenêtre : les plans finaux sont reproduits sur des microfiches montées
+               sur carton. Plus petites et donc plus aisément déplaçables, ces dernières sont
+               susceptibles d’être utilisées à des fins de contrôle ou de recherche. </html:li>
+               <html:li>Cartes nationales et départementales de la France métropolitaine : deux séries de
+               planches représentant d’abord toute la France métropolitaine, puis par départements. </html:li>
+               <html:li>Outils de gestion et de diffusion : le producteur a élaboré ses propres outils de
+               suivi et de commercialisation des plans. Ces documents renseignent aussi sur le
+               fonctionnement du service, sur la gestion de la production et de la diffusion des
+               plans. </html:li>
+            </html:ul>
+            <html:p xml:lang="fr">Cet ensemble documentaire renseigne notamment sur le fonctionnement des différents
+            services chargés des travaux topographiques et photographiques. La mention de noms
+            propres sur certains documents (sur des notes manuscrites, sur des plans) permet de
+            comprendre comment ils circulaient, et de remarquer la prépondérance d’un nom pour une
+            période et une localité donnée. On relève aussi la mécanisation de certaines tâches :
+            les résidus sur certaines photographies seraient plutôt le résultat de techniques de
+            rinçage automatisées et parfois imparfaites, que des traces de vieillissement du
+            document. La masse documentaire et ces différentes traces de manipulations plus ou moins
+            "grossières" témoignent d’une production à l’échelle industrielle. On trouve cependant
+            quelques interventions manuscrites et ponctuelles sur certains plans (grattage et
+            corrections sur les supports calque des plans roulés, annotations sur les plans pliés),
+            il y a donc des interventions manuelles au cours de la fabrication. Ces interventions
+            s’insèrent au sein d’une production de masse témoignant d’une activité du service très
+            réglée, et aux étapes bien définies.</html:p>
+            <html:p xml:lang="fr">Le fonds contient aussi une brochure indiquant que le service avait une activité
+            commerciale.</html:p>
+            <html:p xml:lang="fr">La photogrammétrie est une technique visant à restituer, à partir de plusieurs points de
+            vue, le relief du territoire et le volume du bâti. Elle est inventée en France au milieu
+            du XIXe siècle. Elle prend son essor durant l’entre-deux-guerres, à la faveur du
+            développement de l’aviation. Le Ministère de la Construction remarque d’ailleurs dans
+            une note interne, de 1961, que la technique de restitution par photogrammétrie permet
+            d’économiser plus de 40% du prix d’établissement des plans.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:recordResourceStructure rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">L’ensemble ayant été trouvé dans le plus grand désordre, le parti-pris a été d’adopter
+            un plan de classement correspondant aux différentes typologies documentaires. Il
+            convient de noter que cette séparation typologique était en vigueur chez le producteur,
+            puisqu’il est certain que pour des questions de rangement, les documents n’étaient pas
+            rassemblés en fonction de leur contenu mais de leur format. La logique de production a
+            été conservée pour le classement de chacune des typologies, certaines ayant requis une
+            description plus fine, comme celle des photographies aériennes par exemple, classées par
+            numéro de mission, et non par communes (les campagnes aériennes ne suivant pas le
+            périmètre d’une commune). </html:p>
+            <html:p xml:lang="fr">Seule la typologie des plans pliés issue de la fusion des versements 19770686 et
+            20130290 a dû être complètement reclassée. Le niveau de description de l’instrument de
+            recherche des plans issus du versement le plus ancien a été respecté.</html:p>
+         </html:div>
+      </rico:recordResourceStructure>
+      <rico:accrual rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">Fonds ouvert. </html:p>
+            <html:p xml:lang="fr">Le service des travaux topographiques et photographiques, au sein du ministère chargé de
+            l’équipement, n’a en effet à ce jour versé aucun document postérieur aux années 1970,
+            tandis que le service des travaux topographiques et photographiques a poursuivi son
+            activité. En ce qui concerne la typologie des photographies aériennes, 13 172
+            photographies sont aujourd’hui dénombrées, alors qu’un<html:i> Guide
+               pratique des photothèques</html:i> publié par la Documentation française en 1974
+            évaluait la production du service des travaux topographiques et photographiques entre 17
+            000 et 20 000 photographies par an.</html:p>
+         </html:div>
+      </rico:accrual>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) séparé(s)</html:h4>
+            <html:p xml:lang="fr">Les plans avaient vocation à être diffusés, soit à titre gratuits vers les services
+            déconcentrés de l’État, soit à titre onéreux auprès de particuliers. On retrouve ainsi
+            les plans du service des travaux photographiques aux archives départementales, à l’IGN,
+            ou encore au département des Cartes et plans de la Bibliothèque nationale de France
+            (BnF), dans le cadre du dépôt légal.</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) en relation</html:h4>
+            <html:p xml:lang="fr">Voir fiche POG Dommages de guerre et Reconstruction.</html:p>
+            <html:p xml:lang="fr">Aux Archives nationales :</html:p>
+            <html:ul xml:lang="fr">
+               <html:li>20090429 : Art 1-21 : évolution, attributions et moyens du Service technique de
+               l’urbanisme (STU), 1975-1993. Art 22-60 : relations avec d’autres organes opérant
+               dans le domaine de l’urbanisme, 1962-1993. Art 61-81 : actions, productions et
+               études, 1971-1993. Art 82-161 : collection de rapports d’études thématiques,
+               1966-1997 ;</html:li>
+               <html:li>19770690 : Art 1 (AFU 950) : Organisation de la division des travaux
+               topographiques et documentation technique : Correspondance, notes, documentation,
+               1944-1968 ;</html:li>
+               <html:li>19770688 : Art 1-5 (AFU 942-946) : Photographies d’aménagement de la région
+               parisienne, 1936-1959 (les clichés sont à l’Institut Géographique National. Art 1-4
+               (AFU 942-945) : Photographies effectuées au cours de missions aériennes dans la
+               région parisienne : Cliches, tableaux d’assemblage (classement par ordre
+               chronologique des missions puis par commune), 1936-1949. Art 5 (AFU 946) :
+               Photographies de maquettes : Cliches sur verre, 1958-1959 (cote vacante. Article
+               recoté versement 19860390) ;</html:li>
+               <html:li>19860390 : Art 1 : Plans anciens (1770-1934) de la région parisienne : Phototypes
+               noir et blanc, plaques de verre et supports souples. Documents extraits de l’article
+               19770688/5 (AFU 946), 1934 ;</html:li>
+            </html:ul>
+            <html:p xml:lang="fr">Autres centres d’archives :</html:p>
+            <html:ul xml:lang="fr">
+               <html:li>Archives des services déconcentrés du Ministère de l’Équipement et de ses
+               successeurs conservées en Archives départementales.</html:li>
+            </html:ul>
+            <html:p xml:lang="fr">
+               <html:a href="http://www.economie.gouv.fr/caef/fiscalite-cadastre">Archives relatives
+                  aux travaux topographiques effectués par le Service du Cadastre de la Direction
+                  générale des impôts des différents ministères chargés des finances et du budget,
+                  conservées par le Centre des archives économiques et financières </html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Bibliographie</html:h4>
+            <html:ul xml:lang="fr">
+               <html:li>
+                  <html:i>Environnement et aménagement. Tome 3, L’usage des photographies
+                  aériennes</html:i>, Ministère de l’équipement, du logement, des transports et de
+               l’espace, Service technique de l’urbanisme, Ministère de l’environnement, Atelier
+               central de l’environnement, Paris, 1992, 154 p.</html:li>
+               <html:li> GODARD Vincent, HOTYAT Micheline, « Paysages et modifications de l’espace
+               appréhendés grâces aux nouvelles sources d’information. Photographies aériennes et
+               données satellitales », dans CORVOL Andrée (dir.), Les sources de l’Histoire de
+               l’Environnement, Tome III : le XXe siècle, Paris, L’Harmattan, 2003, p.
+               143-153.</html:li>
+               <html:li>LUTZ Georges, RIMBERT Sylvie et TRICART Jean, <html:i>Introduction à
+                  l’utilisation des photographies aériennes, en géographie, géologie, écologie,
+                  aménagement du territoire. Tome 1, Notions générales, données structurales,
+                  géomorphologie</html:i>, Paris, Société d’édition d’enseignement supérieur, 1970,
+               247 p.</html:li>
+               <html:li>MAROTEAUX Vincent (dir.), <html:i>Archives du ministère de
+                  l’Équipement, du Logement, des Transports et du Tourisme, et des anciens
+                  ministères de la Construction et des Travaux publics : état des versements
+                  effectués aux Archives nationales arrêté au 31 décembre 1995</html:i>, Paris, La
+               Documentation Française, 1997, 310 p.</html:li>
+            </html:ul>
+            <html:p xml:lang="fr">
+               <html:a href="http://www.aftopo.org/FR/lexique-7.html">Lexique disponible sur le site
+                  de l’Asssociation Française de Topographie</html:a>
+               <html:a href="http://www.developpement-durable.gouv.fr/-Histoire-et-archives-.html">Site internet du ministère de l’Écologie, du Développement durable et de
+                  l’Énergie, rubrique « Histoire et archives »</html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:isOrWasDescribedBy rdf:resource="mru/record/050605"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-14c8s0u6c8-1z8mlidfq78k"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="mru/instantiation/top-050605-i1">
+            <rico:isInstantiationOf rdf:resource="mru/recordSet/top-050605"/>
+            <rico:identifier>20130290/1-20130290/510</rico:identifier>
+            <rdfs:label xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+            Construction, puis de l'Équipement : archives du service des travaux topographiques,
+            dites "Cartothèque de la Reconstruction" </rdfs:label>
+            <rico:title xml:lang="fr">Ministères chargés de la Reconstruction et de l'Urbanisme, puis de la
+            Construction, puis de l'Équipement : archives du service des travaux topographiques,
+            dites "Cartothèque de la Reconstruction" </rico:title>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-12-31</rico:endDate>
+            <rico:hasCreator rdf:resource="corporateBody/006392"/>
+            <rico:hasCreator rdf:resource="corporateBody/006393"/>
+            <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d3ntxf5186--sga9u2l9iboc"/>
+            <rico:instantiationExtent xml:lang="fr">Cet ensemble représente approximativement quatre-vingt-dix mètres linéaires.
+               Photographies aériennes : 25 articles, 13 172 photographies issues de 1411 missions ;
+               Plans roulés : 107 articles, 533 coupures ; Plans pliés : environ 8000 unités
+               matérielles ; Cartes à fenêtre : environ 3240 unités matérielles ; Cartes nationales
+               et départementales de la France métropolitaine : 89 planches ; outils de gestion et
+               de diffusion : 9 articles.</rico:instantiationExtent>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p xml:lang="fr">L’ensemble était conservé par le ministère de l’Équipement, implanté 2 rue Goethe à
+            Paris (16e arrondissement), jusqu’au déménagement de celui-ci vers La Défense, en 1988. </html:p>
+                     <html:p xml:lang="fr">
+                        <html:i>" [En 1988], la cartothèque est laissée en déshérence et menacée
+               de destruction, faute de pouvoir être accueillie dans un dépôt d’archives
+               intermédiaire du ministère ou préparée et traitée en vue d’un versement, partiel ou
+               sélectif, aux Archives nationales. Un bordereau d’élimination est préparé par la
+               mission des Archives nationales auprès du ministère de l’Équipement pour l’ensemble
+               du fonds. Une initiative d’Alexandre Mélissinos, architecte urbaniste (alors chargé
+               du quartier Saint-Éloi à Poitiers et consultant auprès du ministère), relayée par
+               Jacques Santrot, maire de Poitiers, permet alors une opération de sauvetage
+               consistant dans le transfert de la cartothèque à Poitiers (réserve des services
+               techniques, promenade des Cours, puis magasins des archives municipales). [...] A.
+               Mélissinos a passé à l’époque une journée dans le dépôt où se trouvaient ces
+               archives, pour déterminer l’intérêt et le contenu du fonds, et en a notamment extrait
+               un plan aquarellé de reconstruction du Havre, qu’il a remis expressément au ministère
+               de l’Équipement. Cette trouvaille, qui en laissait présager d’autres analogues, a
+               peut-être contribué au malentendu autour du nom « fonds de la Reconstruction ».
+               Transféré à Poitiers en 1988, le fonds est conservé depuis lors aux Archives
+               municipales (jusqu’en 2008 on faisait état de sa conservation par la médiathèque, ou
+               bibliothèque municipale à vocation régionale, en raison du rattachement administratif
+               des AM à la médiathèque). À plusieurs reprises son existence a été signalée dans la
+               presse locale, avec des articles donnant des détails précis sur son histoire et sa
+               composition. Tout comme Jacques Santrot, le directeur de la médiathèque de Poitiers,
+               Jean-Marie Compte est attentif à la conservation et à l’avenir du fonds, sans
+               cependant pouvoir mettre en place de programme de traitement." </html:i>Extrait du
+            rapport de la mission d’expertise de novembre 2012.</html:p>
+                     <html:p xml:lang="fr">Les Archives municipales de Poitiers ont fait appel à plusieurs missions d’expertise
+            pour identifier la provenance du fonds et, une fois la responsabilité de l’État établie,
+            assurer l’évaluation et le transfert des documents vers l’institution compétente. La
+            première expertise est assurée par les Archives départementales de la Vienne, à la
+            demande de Sabrine GHYS, responsable des archives municipales et communautaires de
+            Poitiers, et conclut à la responsabilité de l’État ; elle est menée par Mireille JEAN,
+            directrice, et par Pierre CAROUGE, directeur adjoint. La deuxième est conduite par la
+            mission des archives publiques du ministère de l’Écologie, du Développement durable et
+            de l’Énergie et est assistée d’un collège de spécialistes : Françoise
+            LEMAIRE-THABOUILLOT et David PEYCERÉ, conservateurs en chef du patrimoine, Simon TEXIER
+            et Danièle VOLDMAN, docteurs en histoire. La troisième est faite par les Archives
+            nationales. Ces dernières sont en effet destinataires du versement, transféré en 2013
+            sur le site de Pierrefitte-sur-Seine, au terme d’importantes opérations de tri et de
+            reconditionnement.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p xml:lang="fr">Archives publiques entrées par voie exceptionnelle.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur l'évaluation</html:h4>
+                     <html:p xml:lang="fr">L’ensemble conservé aux Archives municipales de Poitiers a fait l’objet d’une évaluation
+            fondée sur des critères d’intérêt historique et de conservation matérielle. </html:p>
+                     <html:p xml:lang="fr">La typologie des plans pliés a été complétée par des plans du versement 19770686 :
+            lorsque ceux-ci manquaient ou bien étaient en meilleur état matériel, ils ont été
+            intégrés au présent versement 20130290.</html:p>
+                     <html:p xml:lang="fr">Une première campagne d’éliminations a eu lieu en septembre 2013, lorsque l’équipe des
+            Archives nationales est venue collecter les documents à Poitiers, prenant en compte les
+            conclusions de l’expertise menée par les Archives départementales de la Vienne. 50
+            mètres cubes ont alors été éliminés sur place, ainsi que quelques photographies
+            aériennes ayant subi de sérieux dommages les rendant illisibles.</html:p>
+                     <html:p xml:lang="fr"> Une seconde campagne a eu lieu en 2014-2015, après que le récolement a révélé d’autres
+            éliminations possibles. Cette campagne s’est appuyée sur le <html:i>Cadre
+               méthodologique pour l’évaluation, la sélection et l’échantillonnage des archives
+               publiques</html:i> (juillet 2014) rédigé par la délégation interministérielle aux
+            Archives de France. Ces opérations ont été menées conformément à la législation en
+            vigueur et en accord avec le producteur. Elles ont été intégralement documentées. Les
+            typologies suivantes ont été éliminées :</html:p>
+                     <html:ul xml:lang="fr">
+                        <html:li>Plans roulés : les calques et contre-calques ayant fonction de matrice, hors
+               départements de la région parisienne et d’Outre-Mer (absents de la série de plans
+               pliés) et les photographies aériennes à usage métrique, qui constituent des documents
+               de travail ;</html:li>
+                        <html:li>Les plans pliés présents en double et sans annotation (la priorité ayant été
+               donnée à l’exemplaire en meilleur état) ;</html:li>
+                        <html:li>Les cartes à fenêtre en double exemplaire.</html:li>
+                     </html:ul>
+                  </html:div>
+               </html:div>
+            </rico:history>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordSet>
+   <rico:RecordSet rdf:about="mru/recordSet/050605-c-14c8s0u6c8-1z8mlidfq78k">
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rdfs:label xml:lang="fr">Photographies aériennes</rdfs:label>
+      <rico:title xml:lang="fr">Photographies aériennes</rico:title>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-12-31</rico:endDate>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">Photographies aériennes à usage photogrammétrique, sous la forme de films et, dans
+                  une moindre mesure, de tirages, résultant de missions aériennes effectuées entre
+                  1948 et 1976, et présentant des vues à axe oblique, ainsi que quelques vues à axe
+                  vertical, des agglomérations. Ces photographies présentent des vues à axe oblique
+                  ou, très rarement, vertical, des agglomérations françaises, survolées à l’occasion
+                  de missions aériennes. Elles donnent à voir diverses infrastructures (logements,
+                  usines, routes…), ainsi que des monuments historiques, en particulier à Paris, ou
+                  encore des paysages naturels. Elles constituent une étape préalable à l’exécution
+                  de plans topographiques.</html:p>
+            <html:p xml:lang="fr"> Tirages photographiques noir et blanc et couleur sur support souple, au sein
+                  desquels trois typologies se distinguent : </html:p>
+            <html:ul xml:lang="fr">
+               <html:li>Vues verticales, minoritaires, de dimensions 21 x 21 cm ;</html:li>
+               <html:li>Vues obliques, les unes de dimensions comprises entre 6 x 9 cm et 13 x 18 cm
+                     ;</html:li>
+               <html:li>Vues obliques de dimensions 32 x 32 cm. </html:li>
+            </html:ul>
+            <html:p xml:lang="fr">Les films photographiques, de polarité négative ou positive, sont de support
+                  acétate et nitrate. On dénombre quelque 200 vues stéréoscopiques, et autant de
+                  tirages, presque exclusivement noir et blanc.</html:p>
+            <html:p xml:lang="fr">La documentation photographique aérienne permet de rendre compte de la situation
+                  d’un territoire, et sert aux travaux de restitution photogrammétrique afin
+                  d’établir les plans réguliers. Elle peut aussi être utile pour dresser les plans
+                  expédiés en complétant les informations de terrain. Les photographies aériennes
+                  sont réalisées par des agents du ministère chargé de l’équipement, dits
+                  ingénieurs-navigants, mais avec les moyens et les avions du Secrétariat général à
+                  l’aviation civile du Ministère des Travaux Publics. Ces photographies étaient
+                  généralement diffusées à l’échelle de 1/5000 (parfois 1/15 000). </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:recordResourceStructure rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">Classement par numéro de mission (chronologique).</html:p>
+         </html:div>
+      </rico:recordResourceStructure>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
+      <rico:isOrWasIncludedIn rdf:resource="mru/recordSet/top-050605"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasInstantiation rdf:resource="mru/instantiation/050605-c-14c8s0u6c8-1z8mlidfq78k-i1"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-5zb450vq1--frw5mhf8pesh"/>
+   </rico:RecordSet>
+   <rico:Instantiation rdf:about="mru/instantiation/050605-c-14c8s0u6c8-1z8mlidfq78k-i1">
+      <rico:isInstantiationOf rdf:resource="mru/recordSet/050605-c-14c8s0u6c8-1z8mlidfq78k"/>
+      <rico:identifier>20130290/1-20130290/25</rico:identifier>
+      <rdfs:label xml:lang="fr">Photographies aériennes</rdfs:label>
+      <rico:title xml:lang="fr">Photographies aériennes</rico:title>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-12-31</rico:endDate>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:instantiationExtent xml:lang="fr">Films photographiques, de polarité positive ou négative sur supports
+                     acétate et nitrate ;</rico:instantiationExtent>
+      <rico:measure xml:lang="fr">Différents formats, 6 x 9 cm pour les plus petits et 32 x 32 cm pour
+                     les plus grands, majoritairement 13 x 18 cm.</rico:measure>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050605/c-14c8s0u6c8-1z8mlidfq78k"/>
+   </rico:Instantiation>
+   <rico:RecordSet rdf:about="mru/recordSet/050605-c-5zb450vq1--frw5mhf8pesh">
+      <rdfs:label xml:lang="fr">Vues à axe oblique</rdfs:label>
+      <rico:title xml:lang="fr">Vues à axe oblique</rico:title>
+      <rico:isOrWasIncludedIn rdf:resource="mru/recordSet/050605-c-14c8s0u6c8-1z8mlidfq78k"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-5zr9ydx99-1lorz8pie35ff"/>
+      <rico:hasInstantiation rdf:resource="mru/instantiation/050605-c-5zb450vq1--frw5mhf8pesh-i1"/>
+   </rico:RecordSet>
+   <rico:Instantiation rdf:about="mru/instantiation/050605-c-5zb450vq1--frw5mhf8pesh-i1">
+      <rico:isInstantiationOf rdf:resource="mru/recordSet/050605-c-5zb450vq1--frw5mhf8pesh"/>
+      <rico:identifier>20130290/1-20130290/24</rico:identifier>
+      <rdfs:label xml:lang="fr">Vues à axe oblique</rdfs:label>
+      <rico:title xml:lang="fr">Vues à axe oblique</rico:title>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050605/c-5zb450vq1--frw5mhf8pesh"/>
+   </rico:Instantiation>
+   <rico:RecordSet rdf:about="mru/recordSet/050605-c-5zr9ydx99-1lorz8pie35ff">
+      <rdfs:label xml:lang="fr">Petits formats</rdfs:label>
+      <rico:title xml:lang="fr">Petits formats</rico:title>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:p xml:lang="fr">Dans le cadre du projet ANR ALEGORIA, cette série d’images a été numérisée.
+                        Les métadonnées descriptives de ces images, produites à partir des
+                        conditionnements et légendes des photographies à l’occasion de l’élaboration
+                        du fichier de récolement nécessaire à la numérisation, ont été alignées sur
+                        le référentiel des lieux des Archives nationales, puis en partie revues et
+                        enrichies, notamment de descripteurs matières (relatifs aux édifices
+                        visibles sur les photos). Le fichier de récolement a ensuite été converti
+                        par script en arborescence XML/EAD intégrée au présent instrument de
+                        recherche, en regroupant les images par mission, et, pour un petit nombre
+                        d’entre elles par enveloppe et "point" [de vue], puis lorsqu’une même
+                        mission concernait des lieux distincts, par lieu photographié. Ce travail a
+                        été réalisé, pour ce qui concerne les premières étapes, par Boris Labidurie,
+                        puis, pour la fin des opérations d’alignement, les relectures et la
+                        conversion ainsi que le contrôle, en 2020-2021 par Pauline Charbonnier et
+                        Florence Clavaud (Mission référentiels des Archives nationales).</html:p>
+            <html:p xml:lang="fr">Les indications entre guillemets consistent en principe en transcription des
+                        légendes des photographies. Les indications entre crochets ont été ajoutées
+                        par les Archives nationales.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:isOrWasIncludedIn rdf:resource="mru/recordSet/050605-c-5zb450vq1--frw5mhf8pesh"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n81eh8--smfsnabe3pnr"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n83xg8--ivj2o9et2w60"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n85zws-4cjpufh9739n"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n87qpw-zsufs0e7a9y1"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n89zqk-tp5fdkapip8x"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8cjpo-1da0fthjpuxco"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8fo24-3i2dt5gpp2af"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8hyxg--o9xj8g61lemu"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8kods--190fhsa11v5kz"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8nazc--nviviiyw89yv"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8pgrc-15luqa9ilpul3"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8rmro--1a71kq4vh5gpe"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n8ybic-1lkter9divjbt"/>
+      <rico:includesOrIncluded rdf:resource="mru/recordSet/050605-c-991n912co-1pkxou4a4x5uh"/>
+      <rico:hasInstantiation rdf:resource="mru/instantiation/050605-c-5zr9ydx99-1lorz8pie35ff-i1"/>
+   </rico:RecordSet>
+   <rico:Instantiation rdf:about="mru/instantiation/050605-c-5zr9ydx99-1lorz8pie35ff-i1">
+      <rico:isInstantiationOf rdf:resource="mru/recordSet/050605-c-5zr9ydx99-1lorz8pie35ff"/>
+      <rico:identifier>20130290/1-20130290/14</rico:identifier>
+      <rdfs:label xml:lang="fr">Petits formats</rdfs:label>
+      <rico:title xml:lang="fr">Petits formats</rico:title>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre, sous réserve des restrictions prévues par l’article L.213-2 du Code
+            du patrimoine ou imposées par l’état matériel des documents.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Reproduction libre, dans le respect des dispositions contenues dans le règlement de la
+            salle de lecture.</html:p>
+      </rico:conditionsOfUse>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050605/c-5zr9ydx99-1lorz8pie35ff"/>
+   </rico:Instantiation>
+</rdf:RDF>

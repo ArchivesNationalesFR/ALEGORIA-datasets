@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://data.alegoria-project.fr/id/anf/">
+   <rico:RecordSet rdf:about="lapie/recordSet/058220-c-70wtu7u8c-1m47wdejs9h1g">
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rdfs:label xml:lang="fr">Album n° 21 : département de l’Yonne, Fleury-la-Vallée à Fleury-la-Vallée</rdfs:label>
+      <rico:title xml:lang="fr">Album n° 21 : département de l’Yonne, Fleury-la-Vallée à Fleury-la-Vallée</rico:title>
+      <rico:contentExtent xml:lang="fr">1 tirages couleur</rico:contentExtent>
+      <rico:hasRecordSetType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89vnrk--16wap6q8xb894"/>
+      <rico:hasOrHadMainSubject rdf:resource="place/FRAN_RI_005-d3ntb918mq--w6r60hxod5vb"/>
+      <rico:isOrWasIncludedIn rdf:resource="lapie/recordSet/top-058220"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7u8c-1m47wdejs9h1g-i1"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wtu7wjo--jo7za20mjxg2"/>
+   </rico:RecordSet>
+   <rico:Instantiation rdf:about="lapie/instantiation/058220-c-70wtu7u8c-1m47wdejs9h1g-i1">
+      <rico:isInstantiationOf rdf:resource="lapie/recordSet/058220-c-70wtu7u8c-1m47wdejs9h1g"/>
+      <rico:identifier>1PH/C/21</rico:identifier>
+      <rdfs:label xml:lang="fr">Album n° 21 : département de l’Yonne, Fleury-la-Vallée à Fleury-la-Vallée</rdfs:label>
+      <rico:title xml:lang="fr">Album n° 21 : département de l’Yonne, Fleury-la-Vallée à Fleury-la-Vallée</rico:title>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:instantiationExtent xml:lang="fr">1 tirages couleur</rico:instantiationExtent>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+   </rico:Instantiation>
+   <rico:RecordSet rdf:about="lapie/recordSet/058220-c-70wtu7wjo--jo7za20mjxg2">
+      <rdfs:label xml:lang="fr">"Fleury-la-Vallée"</rdfs:label>
+      <rico:title xml:lang="fr">"Fleury-la-Vallée"</rico:title>
+      <rico:isOrWasIncludedIn rdf:resource="lapie/recordSet/058220-c-70wtu7u8c-1m47wdejs9h1g"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasOrHadMainSubject rdf:resource="place/FRAN_RI_005-d3ntx41awm-43lbanxhqyk"/>
+      <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7wjo--jo7za20mjxg2-i1"/>
+      <rico:includesOrIncluded rdf:resource="lapie/record/058220-c-70wtu7ypg--1qvw6emdyuclg"/>
+   </rico:RecordSet>
+   <rico:Instantiation rdf:about="lapie/instantiation/058220-c-70wtu7wjo--jo7za20mjxg2-i1">
+      <rico:isInstantiationOf rdf:resource="lapie/recordSet/058220-c-70wtu7wjo--jo7za20mjxg2"/>
+      <rdfs:label xml:lang="fr">"Fleury-la-Vallée"</rdfs:label>
+      <rico:title xml:lang="fr">"Fleury-la-Vallée"</rico:title>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:instantiationExtent xml:lang="fr">1 tirage</rico:instantiationExtent>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+   </rico:Instantiation>
+   <rico:Record rdf:about="lapie/record/058220-c-70wtu7ypg--1qvw6emdyuclg">
+      <rdfs:label xml:lang="fr">"B.K.148", tirage numéroté "2k"</rdfs:label>
+      <rico:title xml:lang="fr">"B.K.148", tirage numéroté "2k"</rico:title>
+      <rico:isOrWasIncludedIn rdf:resource="lapie/recordSet/058220-c-70wtu7wjo--jo7za20mjxg2"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
+      <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i1"/>
+      <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i2"/>
+      <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i3"/>
+   </rico:Record>
+   <rico:Instantiation rdf:about="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i1">
+      <rico:isInstantiationOf rdf:resource="lapie/record/058220-c-70wtu7ypg--1qvw6emdyuclg"/>
+      <rdfs:label xml:lang="fr">"B.K.148", tirage numéroté "2k"</rdfs:label>
+      <rico:title xml:lang="fr">"B.K.148", tirage numéroté "2k"</rico:title>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasCarrierType rdf:resource="http://data.culture.fr/thesaurus/page/ark:/67717/1234a81e-ef60-4c19-9d71-599ebb75e16b"/>
+      <rico:hasCarrierType rdf:resource="carrierType/FRAN_RI_002-d3nd9ym28n--19infadmaqc3f"/>
+      <rico:productionTechnique xml:lang="fr">image positive -- procédé photographique</rico:productionTechnique>
+      <rico:height xml:lang="fr">12,7 cm</rico:height>
+      <rico:width xml:lang="fr">17,7 cm</rico:width>
+      <rico:hasDerivedInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i2"/>
+   </rico:Instantiation>
+   <rico:Instantiation rdf:about="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i2">
+      <rico:isInstantiationOf rdf:resource="lapie/record/058220-c-70wtu7ypg--1qvw6emdyuclg"/>
+      <rico:identifier>FRAN_0242_01251_A</rico:identifier>
+      <rico:isDerivedFromInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i1"/>
+      <rico:hasDerivedInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i3"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</rico:creationDate>
+      <rico:productionTechnique xml:lang="fr">image numérique</rico:productionTechnique>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:measure xml:lang="fr">2180 x 1710 pixels environ</rico:measure>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">image/tiff</dc:format>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+   </rico:Instantiation>
+   <rico:Instantiation rdf:about="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i3">
+      <rico:isInstantiationOf rdf:resource="lapie/record/058220-c-70wtu7ypg--1qvw6emdyuclg"/>
+      <rico:identifier>FRAN_0242_01251_L</rico:identifier>
+      <rico:isDerivedFromInstantiation rdf:resource="lapie/instantiation/058220-c-70wtu7ypg--1qvw6emdyuclg-i2"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</rico:creationDate>
+      <rico:productionTechnique xml:lang="fr">image numérique</rico:productionTechnique>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:measure xml:lang="fr">2180 x 1710 pixels environ</rico:measure>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">image/jpeg</dc:format>
+      <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+   </rico:Instantiation>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:isni="http://isni.org/ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://data.alegoria-project.fr/id/anf/">
+   <rico:Record rdf:about="record/006393">
+      <rico:hasDocumentaryFormType
+         rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord"/>
+      <rico:describesOrDescribed rdf:resource="corporateBody/006393"/>
+      <rico:hasCreator rdf:resource="corporateBody/005061"/>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl001"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl003"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+         >2015-12-04</rico:creationDate>
+      <rico:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+         >2015-12-04</rico:lastModificationDate>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Dérivation (Import_SIA)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-04</rico:date>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/006393">
+            <rico:isInstantiationOf rdf:resource="record/006393"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_NP_006393</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+            <rdfs:seeAlso
+               rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/NP/FRAN_NP_006393"/>
+            <rico:identifier>8104/D</rico:identifier>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:CorporateBody rdf:about="corporateBody/006393">
+      <rico:isOrWasDescribedBy rdf:resource="record/006393"/>
+      <rdfs:label xml:lang="fr">Service technique de l'urbanisme</rdfs:label>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/006393-Service%20technique%20de%20l%27urbanisme">
+            <rdfs:label xml:lang="fr">Service technique de l'urbanisme</rdfs:label>
+            <rico:textualValue xml:lang="fr">Service technique de l'urbanisme</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="corporateBody/006393"/>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl001"/>
+            <rico:type xml:lang="fr">nom d'agent : forme préférée</rico:type>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/006393-STU">
+            <rdfs:label xml:lang="fr">STU</rdfs:label>
+            <rico:textualValue xml:lang="fr">STU</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="corporateBody/006393"/>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+         >1976-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-31</rico:endDate>
+      <rico:agentIsSourceOfAgentHierarchicalRelation
+         rdf:resource="agentHierarchicalRelation/006393-006392-19760101-19971231"/>
+      <rico:isProvenanceOf rdf:resource="mru/recordSet/top-050605"/>
+
+   </rico:CorporateBody>
+   <rico:AgentHierarchicalRelation
+      rdf:about="agentHierarchicalRelation/006393-006392-19760101-19941231">
+      <rico:agentHierarchicalRelationHasTarget rdf:resource="corporateBody/006392"/>
+      <rico:agentHierarchicalRelationHasSource rdf:resource="corporateBody/006393"/>
+      <rdfs:label xml:lang="fr">Relation hiérarchique entre "Service technique de l'urbanisme" et
+         "France. Ministère de la Reconstruction et de l'Urbanisme. Division des travaux
+         topographiques (1944-1994)", début : 1976, fin : 1994</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+         >1976-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-12-31</rico:endDate>
+   </rico:AgentHierarchicalRelation>
+</rdf:RDF>
