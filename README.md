@@ -27,6 +27,12 @@ Le dossier Lapie contient actuellement la description en RDF de 85 des 158 album
 
 Le dossier MRU contient actuellement la description en RDF de près de 10000 vues (essentiellement des films négatifs noir et blanc) petit format, produites entre 1948 et 1970, dans le cadre d'environ 1200 missions aériennes. Ces données ont été produites automatiquement à partir d'un instrument de recherche archivistique qui est consultable depuis peu dans la salle des inventaires virtuelle des Archives nationales, ainsi que les images numériques des photos aériennes décrites : voir cet instrument de recherche à l'adresse [https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050605](https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050605), et plus précisément la partie consacrée aux vues aériennes à axe oblique : [https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050605/c-5zb450vq1--frw5mhf8pesh](https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050605/c-5zb450vq1--frw5mhf8pesh). Depuis les pages web citées, on peut aussi télécharger l'instrument de recherche au format XML/EAD.
 
+## Autres jeux de données liés
+
+Les jeux de données ALEGORIA référencent des types de supports, des types de documents, des mots-matières (objets figurant sur les photos) et surtout des lieux photographiés (instances de la classe rico:Place) décrits dans les référentiels des Archives nationales. Vous trouverez ces référentiels dans le dépôt GitHub consacré aux référentiels des Archives nationales ([https://github.com/ArchivesNationalesFR/Referentiels](https://github.com/ArchivesNationalesFR/Referentiels)). Ces référentiels sont également publiés et interrogeables dans l'application  [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/) ; pour les besoins du projet ALEGORIA, le segment de base des IRI des entités décrites dans ces référentiels des Archives nationales (valeur de l'attribut xml:base de l'élément racine rdf:RDF de chaque fichier) a juste été changé, on lui a donné la valeur http://data.alegoria-project.fr/id/anf/. 
+
+Ces jeux de données sont publiés dans l'application suivante dotée d'un SPARQL endpoint : [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/). L'interface de recherche et de consultation de cette application est actuellement en construction. 
+
 ## Pour plus d'informations
 
 Vous pouvez contacter par courriel le Lab des Archives nationales de France, à l'adresse suivante :  <le-lab.archives-nationales@culture.gouv.fr>.
