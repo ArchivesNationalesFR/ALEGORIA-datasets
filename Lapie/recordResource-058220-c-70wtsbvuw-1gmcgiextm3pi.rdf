@@ -125,7 +125,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T96-324"/>
+      <rico:hasOrHadSubject rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T96-324"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsc674--cfryjsa14fyk-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsc674--cfryjsa14fyk-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsc674--cfryjsa14fyk-i3"/>
@@ -3488,7 +3488,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfm3kjc--oyt0hxj06kwj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfm3kjc--oyt0hxj06kwj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsga1c-12r28jbsq81un-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsga1c-12r28jbsq81un-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsga1c-12r28jbsq81un-i3"/>
@@ -4664,7 +4664,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d5b8icjvp9-pbtbv6nkptzo"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d5b8icjvp9-pbtbv6nkptzo"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshoks-msw2l5hgx6qf-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshoks-msw2l5hgx6qf-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshoks-msw2l5hgx6qf-i3"/>
@@ -4736,7 +4736,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d5b8icjvp9-pbtbv6nkptzo"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d5b8icjvp9-pbtbv6nkptzo"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshr78-qazop6li62o3-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshr78-qazop6li62o3-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtshr78-qazop6li62o3-i3"/>
@@ -8160,7 +8160,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfvtkmx--g0pzumure0y0"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfvtkmx--g0pzumure0y0"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsnp60-1l385jpyjgx76-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsnp60-1l385jpyjgx76-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsnp60-1l385jpyjgx76-i3"/>
@@ -8232,7 +8232,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfwq52c--1lfe6cy1myz14"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfwq52c--1lfe6cy1myz14"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsns0s-12onhlohv7z8w-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsns0s-12onhlohv7z8w-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsns0s-12onhlohv7z8w-i3"/>
@@ -13141,7 +13141,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfs1msf--dpao84rg1wzh"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfs1msf--dpao84rg1wzh"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtstjfg-17imgr5co540n-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtstjfg-17imgr5co540n-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtstjfg-17imgr5co540n-i3"/>
@@ -13618,7 +13618,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfs1msf--dpao84rg1wzh"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfs1msf--dpao84rg1wzh"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsu2pw--t6h7nser33x5-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsu2pw--t6h7nser33x5-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wtsu2pw--t6h7nser33x5-i3"/>

@@ -1724,7 +1724,7 @@
          </html:div>
       </rico:scopeAndContent>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfvtkmx--g0pzumure0y0"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfvtkmx--g0pzumure0y0"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wul6uk4--jy7i0lc87lla-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wul6uk4--jy7i0lc87lla-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wul6uk4--jy7i0lc87lla-i3"/>

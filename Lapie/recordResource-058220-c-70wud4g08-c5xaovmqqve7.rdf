@@ -10476,7 +10476,7 @@
          <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
       </rico:conditionsOfUse>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddqvs--19e3looyqalus-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddqvs--19e3looyqalus-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddqvs--19e3looyqalus-i3"/>
@@ -10543,7 +10543,7 @@
          <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
       </rico:conditionsOfUse>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddsno--rbplu7uwthsa-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddsno--rbplu7uwthsa-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddsno--rbplu7uwthsa-i3"/>
@@ -10610,7 +10610,7 @@
          <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
       </rico:conditionsOfUse>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wudducs--b9mz25kr7q7q-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wudducs--b9mz25kr7q7q-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wudducs--b9mz25kr7q7q-i3"/>
@@ -10677,7 +10677,7 @@
          <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
       </rico:conditionsOfUse>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddw7g-1mtxtvtwgs7sh-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddw7g-1mtxtvtwgs7sh-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddw7g-1mtxtvtwgs7sh-i3"/>
@@ -10744,7 +10744,7 @@
          <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
       </rico:conditionsOfUse>
       <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
-      <rico:hasorHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
+      <rico:hasOrHadSubject rdf:resource="thing/FRAN_RI_004-d3ndfcky09-19i8qvgsjseuj"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddxzc--1gaxvhf2fswi9-i1"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddxzc--1gaxvhf2fswi9-i2"/>
       <rico:hasInstantiation rdf:resource="lapie/instantiation/058220-c-70wuddxzc--1gaxvhf2fswi9-i3"/>
