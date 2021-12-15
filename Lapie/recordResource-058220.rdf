@@ -1,5 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://data.alegoria-project.fr/id/anf/">
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xml:base="http://data.alegoria-project.fr/id/anf/">
+   <rico:Record rdf:about="lapie/record/058220">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rdfs:label xml:lang="fr">Fonds de l'entreprise LAPIE (Les applications photographiques d'industrie et
+     d'édition). Tirages en couleur (1955-1965) : Inventaire analytique des albums cotés 1PH/C/1 à 1PH/C/158</rdfs:label>
+      <rico:title xml:lang="fr">Fonds de l'entreprise LAPIE (Les applications photographiques d'industrie et
+     d'édition). Tirages en couleur (1955-1965) : Inventaire analytique des albums cotés 1PH/C/1 à 1PH/C/158</rico:title>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="corporateBody/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019</rico:publicationDate>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr-FR</dc:language>
+      <rico:describesOrDescribed rdf:resource="lapie/recordSet/top-058220"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="lapie/instantiation/058220-i1">
+            <rico:isInstantationOf rdf:resource="lapie/record/058220"/>
+            <rico:identifier>FRAN_IR_058220</rico:identifier>
+            <rdfs:label xml:lang="fr">Fonds de l'entreprise LAPIE (Les applications photographiques d'industrie et
+     d'édition). Tirages en couleur (1955-1965) : Inventaire analytique des albums cotés 1PH/C/1 à 1PH/C/158</rdfs:label>
+            <rico:title xml:lang="fr">Fonds de l'entreprise LAPIE (Les applications photographiques d'industrie et
+     d'édition). Tirages en couleur (1955-1965) : Inventaire analytique des albums cotés 1PH/C/1 à 1PH/C/158</rico:title>
+            <rico:hasOrHadHolder rdf:resource="corporateBody/005061"/>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">text/xml</dc:format>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058220"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
    <rico:RecordSet rdf:about="lapie/recordSet/top-058220">
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rdfs:label xml:lang="fr">Entreprise LAPIE (Les applications photographiques d'industrie et d'édition) : albums
+    de tirages en couleur</rdfs:label>
+      <rico:title xml:lang="fr">Entreprise LAPIE (Les applications photographiques d'industrie et d'édition) : albums
+    de tirages en couleur</rico:title>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-12-31</rico:endDate>
+      <rico:hasCreator rdf:resource="corporateBody/052067"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">Les vues aériennes de l’entreprise LAPIE, obliques et réalisées à moyenne et basse altitude,
+    sont produites dans un contexte commercial.</html:p>
+            <html:p xml:lang="fr">Depuis les années 50 jusqu’au début de la décennie suivante, les avions de l’entreprise LAPIE
+    sillonnent le territoire français, engrangeant des milliers de clichés destinés à la production
+    de documentation pédagogique et surtout de cartes postales, accompagnant ainsi l’essor du
+    tourisme de masse. Ce fonds important donne donc à voir une France en mutation, juxtaposant
+    exploitations agricoles traditionnelles, industries anciennes et infrastructures innovantes, sur
+    fond d’urbanisation accélérée.</html:p>
+            <html:p xml:lang="fr">Les « albums couleur » ont été utilisés par l’entreprise pour avoir une trace des références
+    qu’elle proposait à la vente. Ils concernent tous les départements français, excepté la Corse,
+    le Puy-de-Dôme et Paris. Il ne s’agit donc pas des cartes postales elles-mêmes, mais de tirages
+    argentiques qui forment un outil professionnel de vente.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:recordResourceStructure rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p xml:lang="fr">Tirages classés par département, puis dans l'ordre alphabétique des lieux (le plus souvent des
+    communes) photographiés, avec quelques exceptions.</html:p>
+         </html:div>
+      </rico:recordResourceStructure>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Communication libre.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+      </rico:conditionsOfUse>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:p xml:lang="fr">Le présent inventaire organise les photographies, au sein des albums, dans l'ordre alphabétique des noms des lieux tels qu'ils sont portés sur les tirages.</html:p>
+            <html:p xml:lang="fr">Les indications entre guillemets sont celles trouvées sur les tirages. Entre crochets, on a
+    saisi le nom actuel de la commune lorsque celui-ci diffère de la dénomination trouvée sur le
+    tirage. Les lieux font par ailleurs l'objet d'une indexation qui référence les lieux du
+    référentiel des lieux des Archives nationales.</html:p>
+         </html:div>
+      </rico:history>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/POG/FRAN_POG_05/p-9qjp40v4b-b5tgfu02m2on"/>
+      <rico:isOrWasDescribedBy rdf:resource="lapie/record/058220"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex7130z--1j70pnr9j8sc6"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex7dq23--1nok33kwbj7de"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex7ois4--1mcy0zkh9vpia"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex84rqv--szhsk7521a0l"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex8hc18--1o5wpcllauj9q"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex8vpet-1y0jtku50eccc"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex9by84--ph3nd5qokqxr"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex9f3yy-c8g0d7xi140n"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyex9sgml--uv40gsnay92i"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexa4xcf--1q55wfzaurwfb"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexabeln-q34wyba0thpz"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexanyym--1aw03biqdhyoy"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexazjew--2dbuiabvubf9"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexbc682--v65aaivseilc"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexbs3h7-1iqax4dvrwytt"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexc15r3--1exp651xogeew"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexcdwjb-1bkckd77wizvr"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexctll7--1pi59rivykgjl"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexd2vyr-ol9jt09rfv6y"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexdgurd--1swo4owy99up4"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexdty93-kwlutdxodgyd"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexe75rz--vx6rrpl6kudr"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexelsfp-1vc2hl3i0txx3"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexeqcdw--17snbazkb5bnw"/>
+      <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c2vzyexezysw-u3hrnztst5vp"/>
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wtpdm0c--1hb75f7dtejhm"/>
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wtq1s5c--135nlo4yrgso0"/>
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wtru9tw-bmpbgrrkyh4i"/>
@@ -63,5 +176,31 @@
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wul7tl8-64mn8jwfbgdl"/>
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wulciq4-867if3b5iut5"/>
       <rico:includesOrIncluded rdf:resource="lapie/recordSet/058220-c-70wullq4o--svb6w2kqa4oi"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="lapie/instantiation/top-058220-i1">
+            <rico:isInstantiationOf rdf:resource="lapie/recordSet/top-058220"/>
+            <rico:identifier>1PH/C/1-1PH/C/158</rico:identifier>
+            <rdfs:label xml:lang="fr">Entreprise LAPIE (Les applications photographiques d'industrie et d'édition) : albums
+    de tirages en couleur</rdfs:label>
+            <rico:title xml:lang="fr">Entreprise LAPIE (Les applications photographiques d'industrie et d'édition) : albums
+    de tirages en couleur</rico:title>
+            <rico:hasCreator rdf:resource="corporateBody/052067"/>
+            <rico:hasOrhadHolder rdf:resource="corporateBody/005061"/>
+            <rico:instantiationExtent xml:lang="fr">Tirages couleur chromogènes collés sur support cartonné au sein de 158 albums</rico:instantiationExtent>
+            <rico:measure xml:lang="fr">Chaque tirage mesure 12,7 x 17,7 cm</rico:measure>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Communication libre.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Mention obligatoire : cliché Archives nationales/Fonds LAPIE. Toute réutilisation est interdite sans l’accord des ayants droit.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p xml:lang="fr">Le fonds Lapie a été acquis en 1972 par les Archives nationales.</html:p>
+               </html:div>
+            </rico:history>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
    </rico:RecordSet>
 </rdf:RDF>
