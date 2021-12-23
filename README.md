@@ -31,8 +31,6 @@ Le dossier MRU contient actuellement la description en RDF de près de 10000 vue
 
 Les jeux de données ALEGORIA référencent des types de supports, des types de documents, des mots-matières (objets figurant sur les photos) et surtout des lieux photographiés (instances de la classe rico:Place) décrits dans les référentiels des Archives nationales. Vous trouverez ces référentiels dans le dépôt GitHub consacré aux référentiels des Archives nationales ([https://github.com/ArchivesNationalesFR/Referentiels](https://github.com/ArchivesNationalesFR/Referentiels)). Ces référentiels sont également publiés et interrogeables dans l'application  [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/) ; pour les besoins du projet ALEGORIA, le segment de base des IRI des entités décrites dans ces référentiels des Archives nationales (valeur de l'attribut xml:base de l'élément racine rdf:RDF de chaque fichier) a juste été changé, on lui a donné la valeur http://data.alegoria-project.fr/id/anf/. 
 
-Ces jeux de données sont publiés dans l'application suivante dotée d'un SPARQL endpoint : [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/). L'interface de recherche et de consultation de cette application est actuellement en construction. 
-
 ## Pour plus d'informations
 
 Vous pouvez contacter par courriel le Lab des Archives nationales de France, à l'adresse suivante :  <le-lab.archives-nationales@culture.gouv.fr>.
