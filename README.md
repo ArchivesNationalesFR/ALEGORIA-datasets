@@ -7,7 +7,7 @@ Ces jeux de données décrivent les séries de photographies aériennes conserv�
 
 Ces jeux de données sont au format RDF/XML. La principale ontologie de référence est [Records in Contexts - Ontology (RiC-O)](https://www.ica.org/standards/RiC/ontology). Le segment de base des IRI (valeur de l'attribut xml:base de l'élément racine rdf:RDF de chaque fichier) est http://data.alegoria-project.fr/id/anf/. 
 
-Ces jeux de données sont publiés dans l'application suivante dotée d'un SPARQL endpoint : [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/). L'interface de recherche et de consultation de cette application est actuellement en construction. Voir aussi à ce sujet la page [https://www.alegoria-project.fr/en/Metadata](https://www.alegoria-project.fr/en/Metadata), qui présente l'ensemble des jeux de données RDF/RiC-O produites dans le cadre du projet ALEGORIA.
+Ces jeux de données sont publiés dans l'application suivante dotée d'un SPARQL endpoint : [http://data.alegoria-project.fr/](http://data.alegoria-project.fr/). L'interface de recherche et de consultation de cette application est actuellement en construction. Voir aussi à ce sujet la page [https://www.alegoria-project.fr/en/Metadata](https://www.alegoria-project.fr/en/Metadata), qui présente l'ensemble des jeux de données RDF/RiC-O produites dans le cadre du projet ALEGORIA. Voir également la présentation du travail fait sur les métadonnées de description des photographies aériennes par les Archives nationales et l'IGN : [https://www.alegoria-project.fr/sites/default/files/3.pres_PubMetadataLOD-FClavaud-PCharbonnier-NAbadie.pdf](https://www.alegoria-project.fr/sites/default/files/3.pres_PubMetadataLOD-FClavaud-PCharbonnier-NAbadie.pdf).
 
 ## Licence
 
